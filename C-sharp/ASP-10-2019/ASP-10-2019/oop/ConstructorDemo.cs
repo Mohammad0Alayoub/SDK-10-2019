@@ -9,15 +9,16 @@ namespace ASP012019.oops
 
      class Parent
     {
-
+        public Parent(int a , int b)
+        { }
         public Parent(int a) : this()
         {
-            //Console.WriteLine("Parent(int)");
+           Console.WriteLine("Parent(int)");
         }
 
         public Parent()
         {
-            //Console.WriteLine("Parent()");
+            Console.WriteLine("Parent()");
         }
         ~Parent()
         {
@@ -27,14 +28,19 @@ namespace ASP012019.oops
 
     class Child : Parent
     {
-        public Child():this(0)
+        public Child() : this(0)
         {
-           // Console.WriteLine("Child()");
+            Console.WriteLine("Child()");
         }
 
         public Child(int a) : base()
         {
-            //Console.WriteLine("Child(int)");
+            Console.WriteLine("Child(int)");
+        }
+
+        public Child(int a ,int b)
+        {
+            Console.WriteLine("Child(int a,int b)");
         }
     }
     class ConstructorDemo
@@ -49,8 +55,11 @@ namespace ASP012019.oops
         //
         static void Main(string[] args)
         {
-            method();
+            // method();
 
+            // Parent p = new Parent(140);
+
+            Child c = new Child();
 
             Console.WriteLine("Done");
             // manually call for the GC to collect

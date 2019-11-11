@@ -12,6 +12,41 @@ namespace ASP_10_2019.oop
         void Info();
     }
 
+    abstract class abClass
+    {
+        public abClass()
+        { }
+        public abstract void  info();
+        public virtual void print(string str)
+        {
+            Console.WriteLine(str);
+        }
+
+    }
+
+    class abClassChild : abClass
+    {
+        public override void info()
+        {
+            Console.WriteLine("This is supclass");
+        }
+
+        public override void print(string str)
+        {
+            Console.WriteLine(str);
+            Console.WriteLine();
+        }
+    }
+
+    class abClassChild2 : abClassChild
+    {
+        public override void print(string str)
+        {
+            Console.WriteLine();
+            Console.WriteLine(str);
+        }
+    }
+
     class A
     {
         private string about = "This is Class A";
