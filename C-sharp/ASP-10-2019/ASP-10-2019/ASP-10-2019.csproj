@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ASP012019.oops.ConstructorDemo</StartupObject>
+    <StartupObject>ATM_HW_solution.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,13 @@
     <Compile Include="Basic\Test.cs" />
     <Compile Include="Basic\Variables.cs" />
     <Compile Include="bulders.cs" />
+    <Compile Include="ExceptionsDemo4.cs" />
+    <Compile Include="exception\ExceptionDemo2.cs" />
+    <Compile Include="exception\Exceptions.cs" />
+    <Compile Include="exception\ExceptionsDemo1.cs" />
+    <Compile Include="exception\ExceptionsDemo3.cs" />
+    <Compile Include="File Mengment\FileManager.cs" />
+    <Compile Include="File Mengment\WrittingFile.cs" />
     <Compile Include="oop\AbstractClass.cs" />
     <Compile Include="oop\ClassesAndObjects.cs" />
     <Compile Include="oop\ConstructorDemo.cs" />
