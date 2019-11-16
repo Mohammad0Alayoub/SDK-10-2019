@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ATM_HW_solution.Program</StartupObject>
+    <StartupObject>cSharpCodes.User</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -75,6 +75,9 @@
     <Compile Include="oop\FirstClass.cs" />
     <Compile Include="oop\Inheritance.cs" />
     <Compile Include="oop\ObjectClass.cs" />
+    <Compile Include="other\Game1.cs" />
+    <Compile Include="other\GenericArray.cs" />
+    <Compile Include="other\Proprities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
