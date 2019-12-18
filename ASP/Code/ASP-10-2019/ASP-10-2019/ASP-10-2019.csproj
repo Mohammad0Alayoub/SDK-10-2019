@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ASP_10_2019</RootNamespace>
+    <AssemblyName>ASP-10-2019</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>cSharpCodes.User</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\Arrays.cs" />
+    <Compile Include="Basic\ConsoleInput.cs" />
+    <Compile Include="Basic\ControlOfFlow.cs" />
+    <Compile Include="Basic\Convertion.cs" />
+    <Compile Include="Basic\JaggedArrays.cs" />
+    <Compile Include="Basic\Loops.cs" />
+    <Compile Include="Basic\Methods.cs" />
+    <Compile Include="Basic\MultiDimentionArrays.cs" />
+    <Compile Include="Basic\Operators.cs" />
+    <Compile Include="Basic\StringFormating.cs" />
+    <Compile Include="Basic\Test.cs" />
+    <Compile Include="Basic\Variables.cs" />
+    <Compile Include="bulders.cs" />
+    <Compile Include="ExceptionsDemo4.cs" />
+    <Compile Include="exception\ExceptionDemo2.cs" />
+    <Compile Include="exception\Exceptions.cs" />
+    <Compile Include="exception\ExceptionsDemo1.cs" />
+    <Compile Include="exception\ExceptionsDemo3.cs" />
+    <Compile Include="File Mengment\FileManager.cs" />
+    <Compile Include="File Mengment\WrittingFile.cs" />
+    <Compile Include="oop\AbstractClass.cs" />
+    <Compile Include="oop\ClassesAndObjects.cs" />
+    <Compile Include="oop\ConstructorDemo.cs" />
+    <Compile Include="oop\DataHiddenDemo.cs" />
+    <Compile Include="oop\EncapsulationDemo.cs" />
+    <Compile Include="oop\Example.cs" />
+    <Compile Include="oop\FirstClass.cs" />
+    <Compile Include="oop\Inheritance.cs" />
+    <Compile Include="oop\ObjectClass.cs" />
+    <Compile Include="other\Game1.cs" />
+    <Compile Include="other\GenericArray.cs" />
+    <Compile Include="other\Proprities.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

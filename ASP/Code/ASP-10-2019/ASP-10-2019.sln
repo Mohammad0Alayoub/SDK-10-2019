@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-10-2019", "ASP-10-2019\ASP-10-2019.csproj", "{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-SDK-10-2019", "WebApplication-SDK-10-2019\WebApplication-SDK-10-2019.csproj", "{99992ACB-FD3C-4339-BB15-BE377D02B8F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6ADFA2-D046-44F0-92ED-B671DCB3615F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99992ACB-FD3C-4339-BB15-BE377D02B8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99992ACB-FD3C-4339-BB15-BE377D02B8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99992ACB-FD3C-4339-BB15-BE377D02B8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99992ACB-FD3C-4339-BB15-BE377D02B8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEBF3291-09E2-436B-AE25-19E65ECD9DC7}
+	EndGlobalSection
+EndGlobal

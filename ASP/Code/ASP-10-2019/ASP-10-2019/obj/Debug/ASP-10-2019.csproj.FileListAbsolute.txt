@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\bin\Debug\ASP-10-2019.exe.config
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\bin\Debug\ASP-10-2019.exe
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\bin\Debug\ASP-10-2019.pdb
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\obj\Debug\ASP-10-2019.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\obj\Debug\ASP-10-2019.exe
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\obj\Debug\ASP-10-2019.pdb
+C:\Users\User\source\repos\ASP-10-2019\ASP-10-2019\obj\Debug\ASP-10-2019.csprojAssemblyReference.cache
