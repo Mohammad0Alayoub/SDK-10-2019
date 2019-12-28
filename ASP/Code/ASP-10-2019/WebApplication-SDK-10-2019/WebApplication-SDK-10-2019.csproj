@@ -67,11 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ASP-Controls\BasicsControls01.aspx" />
+    <Content Include="ASP-Controls\CSS\style01.css" />
+    <Content Include="ASP-Controls\ForTest.aspx" />
+    <Content Include="ASP-Controls\image\microsoft-80658_960_720.png" />
+    <Content Include="ASP-Controls\Work01.aspx" />
     <Content Include="Defualt.aspx" />
     <Content Include="StatesMangemnet\StateCondation.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASP-Controls\BasicsControls01.aspx.cs">
+      <DependentUpon>BasicsControls01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\BasicsControls01.aspx.designer.cs">
+      <DependentUpon>BasicsControls01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP-Controls\ForTest.aspx.cs">
+      <DependentUpon>ForTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\ForTest.aspx.designer.cs">
+      <DependentUpon>ForTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP-Controls\Work01.aspx.cs">
+      <DependentUpon>Work01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\Work01.aspx.designer.cs">
+      <DependentUpon>Work01.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Defualt.aspx.cs">
       <DependentUpon>Defualt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
