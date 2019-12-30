@@ -68,13 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ASP-Controls\BasicsControls01.aspx" />
+    <Content Include="ASP-Controls\CasttingDropDownList.aspx" />
+    <Content Include="ASP-Controls\CasttingDropDownList02.aspx" />
     <Content Include="ASP-Controls\CSS\style01.css" />
+    <Content Include="ASP-Controls\DorpDownList.aspx" />
+    <Content Include="ASP-Controls\DropDwonList02.aspx" />
     <Content Include="ASP-Controls\ForTest.aspx" />
     <Content Include="ASP-Controls\image\microsoft-80658_960_720.png" />
-    <Content Include="ASP-Controls\Work01.aspx" />
     <Content Include="Defualt.aspx" />
+    <Content Include="IsPostBack\isPostBack.aspx" />
+    <Content Include="Project01-CV\Defualt.aspx" />
     <Content Include="StatesMangemnet\StateCondation.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Work\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ASP-Controls\BasicsControls01.aspx.cs">
@@ -84,6 +90,34 @@
     <Compile Include="ASP-Controls\BasicsControls01.aspx.designer.cs">
       <DependentUpon>BasicsControls01.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ASP-Controls\CasttingDropDownList.aspx.cs">
+      <DependentUpon>CasttingDropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\CasttingDropDownList.aspx.designer.cs">
+      <DependentUpon>CasttingDropDownList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP-Controls\CasttingDropDownList02.aspx.cs">
+      <DependentUpon>CasttingDropDownList02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\CasttingDropDownList02.aspx.designer.cs">
+      <DependentUpon>CasttingDropDownList02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP-Controls\DorpDownList.aspx.cs">
+      <DependentUpon>DorpDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\DorpDownList.aspx.designer.cs">
+      <DependentUpon>DorpDownList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP-Controls\DropDwonList02.aspx.cs">
+      <DependentUpon>DropDwonList02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP-Controls\DropDwonList02.aspx.designer.cs">
+      <DependentUpon>DropDwonList02.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ASP-Controls\ForTest.aspx.cs">
       <DependentUpon>ForTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -91,18 +125,32 @@
     <Compile Include="ASP-Controls\ForTest.aspx.designer.cs">
       <DependentUpon>ForTest.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASP-Controls\Work01.aspx.cs">
-      <DependentUpon>Work01.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASP-Controls\Work01.aspx.designer.cs">
-      <DependentUpon>Work01.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Defualt.aspx.cs">
       <DependentUpon>Defualt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Defualt.aspx.designer.cs">
+      <DependentUpon>Defualt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsPostBack\isPostBack.aspx.cs">
+      <DependentUpon>isPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPostBack\isPostBack.aspx.designer.cs">
+      <DependentUpon>isPostBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project01-CV\CVBuldier.Master.cs">
+      <DependentUpon>CVBuldier.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project01-CV\CVBuldier.Master.designer.cs">
+      <DependentUpon>CVBuldier.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Project01-CV\Defualt.aspx.cs">
+      <DependentUpon>Defualt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project01-CV\Defualt.aspx.designer.cs">
       <DependentUpon>Defualt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,9 +161,17 @@
     <Compile Include="StatesMangemnet\StateCondation.aspx.designer.cs">
       <DependentUpon>StateCondation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Work\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Work\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Project01-CV\CVBuldier.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -123,6 +179,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

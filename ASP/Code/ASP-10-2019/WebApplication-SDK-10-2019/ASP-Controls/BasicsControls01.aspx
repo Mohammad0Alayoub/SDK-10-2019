@@ -12,12 +12,12 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#pagination-demo').twbsPagination({
-                totalPages: 6,
+                totalPages: 7,
                 // the current page that show on start
                 startPage: 1,
 
                 // maximum visible pages
-                visiblePages: 6,
+                visiblePages: 7,
 
                 initiateStartPageClick: true,
 
@@ -93,6 +93,9 @@
                     <asp:Button ID="Button1" runat="server" Text="Button" />
                     <br />
                     <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
+                </div>
+                <div class="jumbotron page" id="page7">
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/ASP-Controls/image/microsoft-80658_960_720.png" OnClick="ImageButton1_Click" Width="70px" Height="50px" />
                 </div>
                 <ul id="pagination-demo" class="pagination-lg pull-right"></ul>
             </div>

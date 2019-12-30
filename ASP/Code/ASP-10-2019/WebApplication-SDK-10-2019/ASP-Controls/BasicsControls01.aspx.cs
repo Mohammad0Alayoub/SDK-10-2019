@@ -13,5 +13,10 @@ namespace WebApplication_SDK_10_2019.ASP_Controls
         {
 
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://www.microsoft.com/en-jo/");
+        }
     }
 }
