@@ -78,6 +78,7 @@
     <Content Include="Defualt.aspx" />
     <Content Include="IsPostBack\isPostBack.aspx" />
     <Content Include="Project01-CV\Defualt.aspx" />
+    <Content Include="StatesMangemnet\HiddenFiald.aspx" />
     <Content Include="StatesMangemnet\StateCondation.aspx" />
     <Content Include="Web.config" />
     <Content Include="Work\WebForm1.aspx" />
@@ -154,6 +155,13 @@
       <DependentUpon>Defualt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatesMangemnet\HiddenFiald.aspx.cs">
+      <DependentUpon>HiddenFiald.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StatesMangemnet\HiddenFiald.aspx.designer.cs">
+      <DependentUpon>HiddenFiald.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StatesMangemnet\StateCondation.aspx.cs">
       <DependentUpon>StateCondation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
